@@ -1,4 +1,4 @@
-namespace: k8s-keycloak
+namespace: k8s-keycloak-ha-poc
 
 # Postgres account data, web server certificates, and keycloak admin user
 secrets:
