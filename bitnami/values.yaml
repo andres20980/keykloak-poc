@@ -1076,7 +1076,7 @@ keycloakConfigCli:
 ## @param postgresql.architecture PostgreSQL architecture (`standalone` or `replication`)
 ##
 postgresql:
-  enabled: true
+  enabled: false
   auth:
     postgresPassword: ""
     username: bn_keycloak
@@ -1100,11 +1100,11 @@ postgresql:
 ## @param externalDatabase.annotations Additional custom annotations for external database secret object
 ##
 externalDatabase:
-  host: ""
-  port: 5432
-  user: bn_keycloak
-  database: bitnami_keycloak
-  password: ""
+  host: "proxy.sappcerti.sgtiad.net"
+  port: 15016
+  user: keycloak
+  database: keycloak
+  password: "bmdgnaejy3244rfs7hykfrs"
   existingSecret: ""
   existingSecretHostKey: ""
   existingSecretPortKey: ""
